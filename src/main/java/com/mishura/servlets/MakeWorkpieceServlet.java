@@ -29,7 +29,7 @@ public class MakeWorkpieceServlet extends HttpServlet {
         response.setContentType("text/html");
         responseBody.println("<form method = \"post\">");
         responseBody.println("<p>Do you want to make a new workpiece?</p>");
-        responseBody.println("<button align=\"center\" type=\"submit\">Submit</button>");
+        responseBody.println("<button align=\"center\"type=\"submit\">Submit</button>");
         responseBody.println("</form>");
     }
 

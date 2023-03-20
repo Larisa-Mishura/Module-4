@@ -3399,3 +3399,36 @@ org.hibernate.PropertyNotFoundException: no appropriate constructor in class: co
 2023-03-20 22:53:52 INFO  - HV000001: Hibernate Validator 5.2.5.Final
 2023-03-20 22:53:53 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@272ce069] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2023-03-20 22:53:53 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 23:15:32 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 23:15:33 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 23:15:33 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 23:15:33 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 23:15:33 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 23:15:33 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 23:15:33 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 23:15:34 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 23:15:34 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 23:15:35 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3aa41da1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 23:15:35 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 23:15:47 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 23:15:48 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 23:15:48 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 23:15:48 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 23:15:48 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 23:15:48 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 23:15:48 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 23:15:49 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 23:15:49 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 23:15:50 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7e53339] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 23:15:50 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 23:15:57 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 23:15:57 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 23:15:58 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 23:15:58 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 23:15:58 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 23:15:58 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 23:15:58 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 23:15:58 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 23:15:59 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 23:16:00 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68f0f72c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 23:16:00 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]

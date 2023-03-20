@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "stats", value = "/stats/{id}")
+@WebServlet(name = "StatisticWorkpieceServlet", value = "/stats/{id}")
 public class StatisticWorkpieceServlet extends HttpServlet {
 
     private final Service service = Service.getInstance();
@@ -28,8 +28,8 @@ public class StatisticWorkpieceServlet extends HttpServlet {
         String workpieceId = request.getParameter("id");
         Workpiece workpiece = service.getById(workpieceId).get();
         responseBody.println("<h3>" + workpiece.toString() + " </h3>");
-        responseBody.println("<p><a href=\"add\">ADD</a></p>");
-        responseBody.println("<p><a href=\"list\">LIST</a></p>");
+
+
     }
 
     @Override

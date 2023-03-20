@@ -1,7 +1,15 @@
-<form method = "post">
-    <h3> Enter id of workpiece</h3>
-    <label>Type:
-        <input type="id" name="id"><br />
-     <label>
-    <button type="submit">Submit</button>
-   </form>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Choose id</title>
+</head>
+
+<body>
+
+<form action="/users/${param.id}" method="get">
+    <input type="hidden" name="id" value="${param.id}">
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>

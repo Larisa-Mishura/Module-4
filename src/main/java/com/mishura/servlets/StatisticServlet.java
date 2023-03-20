@@ -28,14 +28,18 @@ public class StatisticServlet extends HttpServlet {
         response.setContentType("text/html");
         StatisticsDTO statistics = service.getStatistics().get(0);
 
-        responseBody.println("<h3 Total amount of produced fuel - :</h3>");
-        responseBody.println("<h3>" + statistics.getProducedFuel() + " </h3>");
+        responseBody.println(String.format("<h2 align=\"center\">Total amount of produced fuel - %s</h2>", statistics.getProducedFuel()));
+        responseBody.println(String.format("<h2 align=\"center\">Total amount of spent fuel - %s</h2>", statistics.getSpentFuel()));
+        responseBody.println(String.format("<h2 align=\"center\">Total amount of broken chips - %s</h2>", statistics.getCountOfBrokenChips()));
 
-        responseBody.println("<h3 Total amount of spent fuel - :</h3>");
-        responseBody.println("<h3>" + statistics.getSpentFuel() + " </h3>");
-
-        responseBody.println("<h3 Total amount of broken chips - :</h3>");
-        responseBody.println("<h3>" + statistics.getCountOfBrokenChips() + " </h3>");
+        responseBody.println("<h2 align=\"center\">For more detailed information, enter ID of workpiece</p>");
+        responseBody.println("<form method = \"get\">");
+        responseBody.println("<h3> Enter ID </h3>");
+        responseBody.println("<label>ID:");
+        responseBody.println("<input type=\"id\" name=\"id\"><br />");
+        responseBody.println("<label>");
+        responseBody.println("<button type=\"submit\">Submit</button>");
+        responseBody.println("</form>");
     }
 
     @Override
