@@ -27,8 +27,10 @@ public class Workpiece {
     @Column(name = "produced_fuel")
     private int producedFuel;
 
+    @Column(name = "spent_fuel")
     private int spentFuel;
 
+    @Column(name = "count_of_broken_chips")
     private int countOfBrokenChips;
 
     private long seconds;

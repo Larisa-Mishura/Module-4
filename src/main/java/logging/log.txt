@@ -1952,3 +1952,1450 @@
 2023-03-17 18:18:38 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@534180a2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2023-03-17 18:18:38 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75de6341] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2023-03-17 18:18:38 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:26 - Thread-2 Robot 3 has started work.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:26 - Thread-4 Robot 5 has started work.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:26 - Thread-1 Robot 2 has started work.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:26 - Thread-0 Robot 1 has started work.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 16 % of base constraction. 
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 658 of fuel, total amount of fuel - 658
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 61 points,  61 of required is made. 
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:34:43 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:34:45 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 17 % of base constraction. 
+2023-03-20 14:34:45 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:34:45 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 11 % of base constraction. 
+2023-03-20 14:34:45 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:34:46 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 725 of fuel, total amount of fuel - 1383
+2023-03-20 14:34:46 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 34 points,  95 of required is made. 
+2023-03-20 14:34:46 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:34:46 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:34:47 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 19 % of base constraction. 
+2023-03-20 14:34:47 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:34:47 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 18 % of base constraction. 
+2023-03-20 14:34:47 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 11 % of base constraction. 
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:29 - Thread-3 Robot 4 has started work.
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:37 - Base Constraction is ready (107 %).
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 792 of fuel, total amount of fuel - 2175
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 14 points,  109 of required is made. 
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:34:49 INFO  BaseConstructionMaker:45 - Thread-4 Robot 5 has finished work.
+2023-03-20 14:34:49 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:34:50 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 25 points,  25 of required is done. 
+2023-03-20 14:34:50 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:50 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:34:50 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:34:50 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:34:50 INFO  pooling:125 - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:34:50 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2023-03-20 14:34:50 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:34:50 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:34:51 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:34:51 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:51 INFO  Version:30 - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:34:52 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7e53339] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:34:52 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:34:52 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 30 points,  30 of required is done. 
+2023-03-20 14:34:52 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:53 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 34 points,  64 of required is done. 
+2023-03-20 14:34:53 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:54 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 25 points,  89 of required is done. 
+2023-03-20 14:34:54 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:55 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:34:55 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:56 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:34:56 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:57 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:34:57 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:58 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 35 points,  35 of required is done. 
+2023-03-20 14:34:58 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:34:59 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 25 points,  60 of required is done. 
+2023-03-20 14:34:59 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:35:00 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 29 points,  89 of required is done. 
+2023-03-20 14:35:00 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:35:01 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 27 points,  116 of required is done. 
+2023-03-20 14:35:01 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:35:02 INFO  BaseConstructionMaker:45 - Thread-3 Robot 4 has finished work.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:26 - Thread-2 Robot 3 has started work.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:26 - Thread-4 Robot 5 has started work.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:26 - Thread-1 Robot 2 has started work.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:26 - Thread-0 Robot 1 has started work.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 17 % of base constraction. 
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 18 % of base constraction. 
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 648 of fuel, total amount of fuel - 648
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 64 points,  64 of required is made. 
+2023-03-20 14:38:52 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:38:54 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 16 % of base constraction. 
+2023-03-20 14:38:54 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:38:54 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 13 % of base constraction. 
+2023-03-20 14:38:54 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:38:55 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 518 of fuel, total amount of fuel - 1166
+2023-03-20 14:38:55 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 6 points,  70 of required is made. 
+2023-03-20 14:38:55 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:38:55 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:38:56 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:38:56 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:38:56 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 13 % of base constraction. 
+2023-03-20 14:38:56 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 531 of fuel, total amount of fuel - 1697
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 48 points,  118 of required is made. 
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 11 % of base constraction. 
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:45 - Thread-4 Robot 5 has finished work.
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:29 - Thread-3 Robot 4 has started work.
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 32 points,  32 of required is done. 
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:38:58 INFO  BaseConstructionMaker:37 - Base Constraction is ready (101 %).
+2023-03-20 14:38:59 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:38:59 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:38:59 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:38:59 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:38:59 INFO  pooling:125 - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:38:59 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2023-03-20 14:38:59 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:38:59 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 32 points,  64 of required is done. 
+2023-03-20 14:38:59 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:39:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:39:00 INFO  Version:30 - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:39:00 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 32 points,  96 of required is done. 
+2023-03-20 14:39:00 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:39:01 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a66e67e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:39:01 INFO  pooling:550 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:39:01 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 28 points,  124 of required is done. 
+2023-03-20 14:39:01 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:39:02 INFO  BaseConstructionMaker:45 - Thread-3 Robot 4 has finished work.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:26 - Thread-2 Robot 3 has started work.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:26 - Thread-4 Robot 5 has started work.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:26 - Thread-0 Robot 1 has started work.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:26 - Thread-1 Robot 2 has started work.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 19 % of base constraction. 
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 12 % of base constraction. 
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 532 of fuel, total amount of fuel - 532
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:39:51 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:39:53 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:39:53 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:39:53 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 10 % of base constraction. 
+2023-03-20 14:39:53 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:39:54 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 741 of fuel, total amount of fuel - 1273
+2023-03-20 14:39:55 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:39:55 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 30 points,  30 of required is made. 
+2023-03-20 14:39:55 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:39:56 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 13 % of base constraction. 
+2023-03-20 14:39:56 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:39:56 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:39:56 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:39:56 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 70 points,  100 of required is made. 
+2023-03-20 14:39:56 INFO  BaseConstructionMaker:45 - Thread-4 Robot 5 has finished work.
+2023-03-20 14:39:56 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:39:56 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:39:57 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:39:57 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:39:57 INFO  pooling:125 - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:39:57 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2023-03-20 14:39:57 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:39:57 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:39:58 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 18 % of base constraction. 
+2023-03-20 14:39:58 INFO  BaseConstructionMaker:37 - Base Constraction is ready (100 %).
+2023-03-20 14:39:58 INFO  BaseConstructionMaker:29 - Thread-3 Robot 4 has started work.
+2023-03-20 14:39:58 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 26 points,  26 of required is done. 
+2023-03-20 14:39:58 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:39:58 INFO  Version:30 - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:39:58 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@76ad6715] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:39:58 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e4f263e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:39:58 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 29 points,  55 of required is done. 
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:26 - Thread-6 Robot 1 has started work.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:26 - Thread-10 Robot 5 has started work.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:26 - Thread-8 Robot 3 has started work.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:26 - Thread-7 Robot 2 has started work.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 14 % of base constraction. 
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:38 - Thread-10 Robot 5 has made 86 points,  86 of required is made. 
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:30 - Thread-6 Robot 1 has produced 810 of fuel, total amount of fuel - 810
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:41 - Thread-10 Robot 5 is reloading for 1 second.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:39 - Thread-8 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 12 % of base constraction. 
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:31 - Thread-6 Robot 1 is transporting fuel.
+2023-03-20 14:39:59 INFO  BaseConstructionMaker:39 - Thread-7 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:00 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 26 points,  81 of required is done. 
+2023-03-20 14:40:00 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:01 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 26 points,  107 of required is done. 
+2023-03-20 14:40:01 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:01 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:40:01 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:40:01 INFO  BaseConstructionMaker:39 - Thread-7 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:01 INFO  BaseConstructionMaker:39 - Thread-8 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:02 INFO  BaseConstructionMaker:30 - Thread-6 Robot 1 has produced 851 of fuel, total amount of fuel - 1661
+2023-03-20 14:40:02 INFO  BaseConstructionMaker:45 - Thread-3 Robot 4 has finished work.
+2023-03-20 14:40:02 INFO  BaseConstructionMaker:38 - Thread-10 Robot 5 has made 64 points,  150 of required is made. 
+2023-03-20 14:40:02 INFO  BaseConstructionMaker:31 - Thread-6 Robot 1 is transporting fuel.
+2023-03-20 14:40:02 INFO  BaseConstructionMaker:45 - Thread-10 Robot 5 has finished work.
+2023-03-20 14:40:03 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:40:03 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 19 % of base constraction. 
+2023-03-20 14:40:03 INFO  BaseConstructionMaker:39 - Thread-8 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:03 INFO  BaseConstructionMaker:39 - Thread-7 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:37 - Base Constraction is ready (101 %).
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 10 % of base constraction. 
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:37 - Base Constraction is ready (101 %).
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:29 - Thread-9 Robot 4 has started work.
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:36 - Thread-9 Robot 4 has broken chip.
+2023-03-20 14:40:05 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:06 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 34 points,  34 of required is done. 
+2023-03-20 14:40:06 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:07 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 30 points,  64 of required is done. 
+2023-03-20 14:40:07 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:08 INFO  BaseConstructionMaker:36 - Thread-9 Robot 4 has broken chip.
+2023-03-20 14:40:08 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:09 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 26 points,  26 of required is done. 
+2023-03-20 14:40:09 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:10 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 34 points,  60 of required is done. 
+2023-03-20 14:40:10 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:11 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 29 points,  89 of required is done. 
+2023-03-20 14:40:11 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:12 INFO  BaseConstructionMaker:36 - Thread-9 Robot 4 has broken chip.
+2023-03-20 14:40:12 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:13 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 32 points,  32 of required is done. 
+2023-03-20 14:40:13 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:14 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 35 points,  67 of required is done. 
+2023-03-20 14:40:14 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:15 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 35 points,  102 of required is done. 
+2023-03-20 14:40:15 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:16 INFO  BaseConstructionMaker:45 - Thread-9 Robot 4 has finished work.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:26 - Thread-1 Robot 2 has started work.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:26 - Thread-4 Robot 5 has started work.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:26 - Thread-0 Robot 1 has started work.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:26 - Thread-2 Robot 3 has started work.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 18 % of base constraction. 
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 14 % of base constraction. 
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 3 points,  3 of required is made. 
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 808 of fuel, total amount of fuel - 808
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:40:32 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:40:34 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:40:34 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 11 % of base constraction. 
+2023-03-20 14:40:34 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:34 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:35 INFO  BaseConstructionMaker:30 - Thread-0 Robot 1 has produced 514 of fuel, total amount of fuel - 1322
+2023-03-20 14:40:35 INFO  BaseConstructionMaker:31 - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:40:35 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 70 points,  73 of required is made. 
+2023-03-20 14:40:35 INFO  BaseConstructionMaker:41 - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:40:36 INFO  BaseConstructionMaker:38 - Thread-4 Robot 5 has made 87 points,  160 of required is made. 
+2023-03-20 14:40:36 INFO  BaseConstructionMaker:45 - Thread-4 Robot 5 has finished work.
+2023-03-20 14:40:36 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:40:36 INFO  BaseConstructionMaker:30 - Thread-1 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:40:36 INFO  BaseConstructionMaker:39 - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:36 INFO  BaseConstructionMaker:39 - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:36 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:40:37 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:40:37 WARN  pooling:75 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:40:37 INFO  pooling:119 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:40:37 INFO  pooling:125 - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:40:37 INFO  pooling:132 - HHH10001003: Autocommit mode: false
+2023-03-20 14:40:37 INFO  DriverManagerConnectionProviderImpl:322 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:40:37 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:40:38 INFO  BaseConstructionMaker:30 - Thread-2 Robot 3 has made 17 % of base constraction. 
+2023-03-20 14:40:38 INFO  Version:30 - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:40:38 INFO  BaseConstructionMaker:29 - Thread-3 Robot 4 has started work.
+2023-03-20 14:40:38 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 28 points,  28 of required is done. 
+2023-03-20 14:40:38 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:38 INFO  BaseConstructionMaker:37 - Base Constraction is ready (103 %).
+2023-03-20 14:40:39 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a66e67e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:40:39 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:26 - Thread-6 Robot 1 has started work.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:26 - Thread-8 Robot 3 has started work.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:26 - Thread-7 Robot 2 has started work.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 19 % of base constraction. 
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:26 - Thread-10 Robot 5 has started work.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:30 - Thread-6 Robot 1 has produced 975 of fuel, total amount of fuel - 975
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:38 - Thread-10 Robot 5 has made 19 points,  19 of required is made. 
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:39 - Thread-8 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 15 % of base constraction. 
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:41 - Thread-10 Robot 5 is reloading for 1 second.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:39 - Thread-7 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:31 - Thread-6 Robot 1 is transporting fuel.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:40:39 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:40 INFO  BaseConstructionMaker:38 - Thread-10 Robot 5 has made 17 points,  36 of required is made. 
+2023-03-20 14:40:40 INFO  BaseConstructionMaker:41 - Thread-10 Robot 5 is reloading for 1 second.
+2023-03-20 14:40:40 INFO  BaseConstructionMaker:36 - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:40:40 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:41 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 15 % of base constraction. 
+2023-03-20 14:40:41 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 11 % of base constraction. 
+2023-03-20 14:40:41 INFO  BaseConstructionMaker:39 - Thread-7 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:41 INFO  BaseConstructionMaker:39 - Thread-8 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:41 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 34 points,  34 of required is done. 
+2023-03-20 14:40:41 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:42 INFO  BaseConstructionMaker:30 - Thread-6 Robot 1 has produced 529 of fuel, total amount of fuel - 1504
+2023-03-20 14:40:42 INFO  BaseConstructionMaker:31 - Thread-6 Robot 1 is transporting fuel.
+2023-03-20 14:40:42 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 27 points,  61 of required is done. 
+2023-03-20 14:40:42 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:43 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 14 % of base constraction. 
+2023-03-20 14:40:43 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 19 % of base constraction. 
+2023-03-20 14:40:43 INFO  BaseConstructionMaker:39 - Thread-8 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:40:43 INFO  BaseConstructionMaker:39 - Thread-7 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:40:43 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 32 points,  93 of required is done. 
+2023-03-20 14:40:43 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:44 INFO  BaseConstructionMaker:40 - Thread-3 Robot 4 has made 28 points,  121 of required is done. 
+2023-03-20 14:40:44 INFO  BaseConstructionMaker:42 - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:30 - Thread-7 Robot 2 has made 12 % of base constraction. 
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:38 - Thread-10 Robot 5 has made 26 points,  62 of required is made. 
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:30 - Thread-8 Robot 3 has made 10 % of base constraction. 
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:37 - Base Constraction is ready (105 %).
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:30 - Thread-6 Robot 1 has produced 710 of fuel, total amount of fuel - 2214
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:41 - Thread-10 Robot 5 is reloading for 1 second.
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:29 - Thread-9 Robot 4 has started work.
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:37 - Base Constraction is ready (105 %).
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 34 points,  34 of required is done. 
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:31 - Thread-6 Robot 1 is transporting fuel.
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:45 INFO  BaseConstructionMaker:45 - Thread-3 Robot 4 has finished work.
+2023-03-20 14:40:46 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 28 points,  62 of required is done. 
+2023-03-20 14:40:46 INFO  BaseConstructionMaker:38 - Thread-10 Robot 5 has made 49 points,  111 of required is made. 
+2023-03-20 14:40:46 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:46 INFO  BaseConstructionMaker:45 - Thread-10 Robot 5 has finished work.
+2023-03-20 14:40:47 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 31 points,  93 of required is done. 
+2023-03-20 14:40:47 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:48 INFO  BaseConstructionMaker:36 - Thread-9 Robot 4 has broken chip.
+2023-03-20 14:40:48 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:49 INFO  BaseConstructionMaker:36 - Thread-9 Robot 4 has broken chip.
+2023-03-20 14:40:49 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:50 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 31 points,  31 of required is done. 
+2023-03-20 14:40:50 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:51 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 34 points,  65 of required is done. 
+2023-03-20 14:40:51 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:52 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 25 points,  90 of required is done. 
+2023-03-20 14:40:52 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:53 INFO  BaseConstructionMaker:40 - Thread-9 Robot 4 has made 31 points,  121 of required is done. 
+2023-03-20 14:40:53 INFO  BaseConstructionMaker:42 - Thread-9 Robot 4 is reloading for 1 second.
+2023-03-20 14:40:54 INFO  BaseConstructionMaker:45 - Thread-9 Robot 4 has finished work.
+2023-03-20 14:50:29 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 14:50:29 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 14:50:29 INFO  - Thread[Thread-0,5,main]-Robot 1 has started work.
+2023-03-20 14:50:29 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 14:50:29 INFO  - Thread-1 Robot 2 has made 15 % of base constraction. 
+2023-03-20 14:50:29 INFO  - Thread[Thread-0,5,main]-Robot 1 has produced 629 of fuel, total amount of fuel - 629
+2023-03-20 14:50:29 INFO  - Thread[Thread-0,5,main]-Robot 1 is transporting fuel.
+2023-03-20 14:50:29 INFO  - Thread-2 Robot 3 has made 16 % of base constraction. 
+2023-03-20 14:50:29 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:50:29 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:50:31 INFO  - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:50:31 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:50:31 INFO  - Thread-1 Robot 2 has made 18 % of base constraction. 
+2023-03-20 14:50:31 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:50:32 INFO  - Thread[Thread-0,5,main]-Robot 1 has produced 872 of fuel, total amount of fuel - 1501
+2023-03-20 14:50:32 INFO  - Thread[Thread-0,5,main]-Robot 1 is transporting fuel.
+2023-03-20 14:50:32 INFO  - Thread-4 Robot 5 has made 3 points,  3 of required is made. 
+2023-03-20 14:50:32 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:50:33 INFO  - Thread-1 Robot 2 has made 12 % of base constraction. 
+2023-03-20 14:50:33 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:50:33 INFO  - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:50:33 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:50:33 INFO  - Thread-4 Robot 5 has made 28 points,  31 of required is made. 
+2023-03-20 14:50:33 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:50:34 INFO  - Thread-4 Robot 5 has made 62 points,  93 of required is made. 
+2023-03-20 14:50:34 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:50:35 INFO  - Thread[Thread-0,5,main]-Robot 1 has produced 822 of fuel, total amount of fuel - 2323
+2023-03-20 14:50:35 INFO  - Thread[Thread-0,5,main]-Robot 1 is transporting fuel.
+2023-03-20 14:50:35 INFO  - Thread-2 Robot 3 has made 19 % of base constraction. 
+2023-03-20 14:50:35 INFO  - Thread-1 Robot 2 has made 19 % of base constraction. 
+2023-03-20 14:50:35 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 14:50:35 INFO  - Base Constraction is ready (110 %).
+2023-03-20 14:50:35 INFO  - Thread-3 Robot 4 has made 27 points,  27 of required is done. 
+2023-03-20 14:50:35 INFO  - Base Constraction is ready (110 %).
+2023-03-20 14:50:35 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:35 INFO  - Thread-4 Robot 5 has made 41 points,  134 of required is made. 
+2023-03-20 14:50:35 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 14:50:36 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:50:36 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:50:36 INFO  - Thread-3 Robot 4 has made 32 points,  59 of required is done. 
+2023-03-20 14:50:36 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:36 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:50:36 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:50:36 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:50:36 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 14:50:36 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:50:37 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:50:37 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:50:37 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:50:37 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:38 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75d4a80f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:50:38 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:50:38 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:50:38 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:39 INFO  - Thread-3 Robot 4 has made 32 points,  32 of required is done. 
+2023-03-20 14:50:39 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:40 INFO  - Thread-3 Robot 4 has made 26 points,  58 of required is done. 
+2023-03-20 14:50:40 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:41 INFO  - Thread-3 Robot 4 has made 33 points,  91 of required is done. 
+2023-03-20 14:50:41 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:42 INFO  - Thread-3 Robot 4 has made 29 points,  120 of required is done. 
+2023-03-20 14:50:42 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:50:43 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 14:55:27 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 14:55:27 INFO  - Thread-0-Robot 1 has started work.
+2023-03-20 14:55:27 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 14:55:27 INFO  - Thread-0-Robot 1 has produced 697 of fuel, total amount of fuel - 697
+2023-03-20 14:55:27 INFO  - Thread-1 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:55:27 INFO  - Thread-0-Robot 1 is transporting fuel.
+2023-03-20 14:55:27 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:55:27 INFO  - Thread-2 Robot 3 has made 12 % of base constraction. 
+2023-03-20 14:55:27 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:55:27 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 14:55:27 INFO  - Thread-4 Robot 5 has made 44 points,  44 of required is made. 
+2023-03-20 14:55:27 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:55:29 INFO  - Thread-1 Robot 2 has made 10 % of base constraction. 
+2023-03-20 14:55:29 INFO  - Thread-2 Robot 3 has made 18 % of base constraction. 
+2023-03-20 14:55:29 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:55:29 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:55:30 INFO  - Thread-0-Robot 1 has produced 841 of fuel, total amount of fuel - 1538
+2023-03-20 14:55:30 INFO  - Thread-4 Robot 5 has made 40 points,  84 of required is made. 
+2023-03-20 14:55:30 INFO  - Thread-0-Robot 1 is transporting fuel.
+2023-03-20 14:55:30 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:55:31 INFO  - Thread-2 Robot 3 has made 14 % of base constraction. 
+2023-03-20 14:55:31 INFO  - Thread-1 Robot 2 has made 19 % of base constraction. 
+2023-03-20 14:55:31 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:55:31 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:55:33 INFO  - Thread-2 Robot 3 has made 12 % of base constraction. 
+2023-03-20 14:55:33 INFO  - Thread-4 Robot 5 has made 27 points,  111 of required is made. 
+2023-03-20 14:55:33 INFO  - Thread-1 Robot 2 has made 12 % of base constraction. 
+2023-03-20 14:55:33 INFO  - Thread-0-Robot 1 has produced 693 of fuel, total amount of fuel - 2231
+2023-03-20 14:55:33 INFO  - Thread-0-Robot 1 is transporting fuel.
+2023-03-20 14:55:33 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:55:33 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 14:55:33 INFO  - Base Constraction is ready (110 %).
+2023-03-20 14:55:33 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 14:55:33 INFO  - Thread-3 Robot 4 has made 31 points,  31 of required is done. 
+2023-03-20 14:55:33 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:55:34 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:55:34 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:55:34 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:55:34 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:55:34 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:55:34 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 14:55:34 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:55:34 INFO  - Thread-3 Robot 4 has made 29 points,  60 of required is done. 
+2023-03-20 14:55:34 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:55:35 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:55:35 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:55:35 INFO  - Thread-3 Robot 4 has made 27 points,  87 of required is done. 
+2023-03-20 14:55:35 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:55:36 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@12eedfee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:55:36 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:55:36 INFO  - Thread-3 Robot 4 has made 31 points,  118 of required is done. 
+2023-03-20 14:55:36 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:55:37 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 14:56:54 INFO  - Thread-0Robot 1 has started work.
+2023-03-20 14:56:54 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 14:56:54 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 14:56:54 INFO  - Thread-2 Robot 3 has made 12 % of base constraction. 
+2023-03-20 14:56:54 INFO  - Thread-1 Robot 2 has made 13 % of base constraction. 
+2023-03-20 14:56:54 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:56:54 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:56:54 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 14:56:54 INFO  - Thread-0Robot 1 has produced 664 of fuel, total amount of fuel - 664
+2023-03-20 14:56:54 INFO  - Thread-0Robot 1 is transporting fuel.
+2023-03-20 14:56:54 INFO  - Thread-4 Robot 5 has made 45 points,  45 of required is made. 
+2023-03-20 14:56:54 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:56:56 INFO  - Thread-2 Robot 3 has made 19 % of base constraction. 
+2023-03-20 14:56:56 INFO  - Thread-1 Robot 2 has made 11 % of base constraction. 
+2023-03-20 14:56:56 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:56:56 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:56:57 INFO  - Thread-0Robot 1 has produced 562 of fuel, total amount of fuel - 1226
+2023-03-20 14:56:57 INFO  - Thread-0Robot 1 is transporting fuel.
+2023-03-20 14:56:57 INFO  - Thread-4 Robot 5 has made 51 points,  96 of required is made. 
+2023-03-20 14:56:57 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:56:58 INFO  - Thread-1 Robot 2 has made 16 % of base constraction. 
+2023-03-20 14:56:58 INFO  - Thread-4 Robot 5 has made 10 points,  106 of required is made. 
+2023-03-20 14:56:58 INFO  - Thread-2 Robot 3 has made 19 % of base constraction. 
+2023-03-20 14:56:58 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:56:58 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 14:56:58 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:56:58 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:56:59 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:56:59 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:56:59 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:56:59 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:56:59 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 14:56:59 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:57:00 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:57:00 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:57:00 INFO  - Thread-1 Robot 2 has made 10 % of base constraction. 
+2023-03-20 14:57:00 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 14:57:00 INFO  - Thread-3 Robot 4 has made 34 points,  34 of required is done. 
+2023-03-20 14:57:00 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:00 INFO  - Base Constraction is ready (100 %).
+2023-03-20 14:57:00 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75d4a80f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:57:01 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:57:01 INFO  - Thread-3 Robot 4 has made 28 points,  62 of required is done. 
+2023-03-20 14:57:01 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:02 INFO  - Thread-3 Robot 4 has made 27 points,  89 of required is done. 
+2023-03-20 14:57:02 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:03 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:57:03 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:04 INFO  - Thread-3 Robot 4 has made 26 points,  26 of required is done. 
+2023-03-20 14:57:04 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:05 INFO  - Thread-3 Robot 4 has made 32 points,  58 of required is done. 
+2023-03-20 14:57:05 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:06 INFO  - Thread-3 Robot 4 has made 30 points,  88 of required is done. 
+2023-03-20 14:57:06 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:07 INFO  - Thread-3 Robot 4 has made 25 points,  113 of required is done. 
+2023-03-20 14:57:07 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:08 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 14:57:23 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 14:57:23 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 14:57:23 INFO  - Thread-0 Robot 1 has started work.
+2023-03-20 14:57:23 INFO  - Thread-1 Robot 2 has made 18 % of base constraction. 
+2023-03-20 14:57:23 INFO  - Thread-2 Robot 3 has made 12 % of base constraction. 
+2023-03-20 14:57:23 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:57:23 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:57:23 INFO  - Thread-0 Robot 1 has produced 908 of fuel, total amount of fuel - 908
+2023-03-20 14:57:23 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:57:23 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 14:57:23 INFO  - Thread-4 Robot 5 has made 4 points,  4 of required is made. 
+2023-03-20 14:57:23 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:57:24 INFO  - Thread-4 Robot 5 has made 71 points,  75 of required is made. 
+2023-03-20 14:57:24 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 14:57:25 INFO  - Thread-2 Robot 3 has made 15 % of base constraction. 
+2023-03-20 14:57:25 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:57:25 INFO  - Thread-1 Robot 2 has made 14 % of base constraction. 
+2023-03-20 14:57:25 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:57:26 INFO  - Thread-0 Robot 1 has produced 849 of fuel, total amount of fuel - 1757
+2023-03-20 14:57:26 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 14:57:26 INFO  - Thread-4 Robot 5 has made 89 points,  164 of required is made. 
+2023-03-20 14:57:26 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 14:57:26 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 14:57:26 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 14:57:27 INFO  - Thread-2 Robot 3 has made 14 % of base constraction. 
+2023-03-20 14:57:27 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 14:57:27 INFO  - Thread-1 Robot 2 has made 16 % of base constraction. 
+2023-03-20 14:57:27 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 14:57:27 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 14:57:27 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 14:57:27 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 14:57:27 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 14:57:27 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 14:57:27 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 14:57:27 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 14:57:28 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75de6341] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 14:57:28 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:57:29 INFO  - Thread-2 Robot 3 has made 12 % of base constraction. 
+2023-03-20 14:57:29 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 14:57:29 INFO  - Thread-3 Robot 4 has made 30 points,  30 of required is done. 
+2023-03-20 14:57:29 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:29 INFO  - Base Constraction is ready (101 %).
+2023-03-20 14:57:30 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:57:30 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:31 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:57:31 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:32 INFO  - Thread-3 Robot 4 has made 27 points,  27 of required is done. 
+2023-03-20 14:57:32 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:33 INFO  - Thread-3 Robot 4 has made 31 points,  58 of required is done. 
+2023-03-20 14:57:33 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:34 INFO  - Thread-3 Robot 4 has made 27 points,  85 of required is done. 
+2023-03-20 14:57:34 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:35 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 14:57:35 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:36 INFO  - Thread-3 Robot 4 has made 27 points,  27 of required is done. 
+2023-03-20 14:57:36 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:37 INFO  - Thread-3 Robot 4 has made 30 points,  57 of required is done. 
+2023-03-20 14:57:37 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:38 INFO  - Thread-3 Robot 4 has made 25 points,  82 of required is done. 
+2023-03-20 14:57:38 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:39 INFO  - Thread-3 Robot 4 has made 25 points,  107 of required is done. 
+2023-03-20 14:57:39 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 14:57:40 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 15:09:09 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 15:09:09 INFO  - Thread-0 Robot 1 has started work.
+2023-03-20 15:09:09 INFO  - Thread-1 Robot 2 has made 19 % of base constraction. 
+2023-03-20 15:09:09 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:09:09 INFO  - Thread-0 Robot 1 has produced 940 of fuel, total amount of fuel - 940
+2023-03-20 15:09:09 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:09:09 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 15:09:09 INFO  - Thread-2 Robot 3 has made 16 % of base constraction. 
+2023-03-20 15:09:09 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:09:09 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 15:09:09 INFO  - Thread-4 Robot 5 has made 81 points,  81 of required is made. 
+2023-03-20 15:09:09 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:09:11 INFO  - Thread-1 Robot 2 has made 11 % of base constraction. 
+2023-03-20 15:09:11 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:09:11 INFO  - Thread-2 Robot 3 has made 11 % of base constraction. 
+2023-03-20 15:09:11 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:09:12 INFO  - Thread-0 Robot 1 has produced 594 of fuel, total amount of fuel - 1534
+2023-03-20 15:09:12 INFO  - Thread-4 Robot 5 has made 79 points,  160 of required is made. 
+2023-03-20 15:09:12 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:09:12 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 15:09:13 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 15:09:13 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 15:09:13 INFO  - Thread-1 Robot 2 has made 11 % of base constraction. 
+2023-03-20 15:09:13 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:09:13 INFO  - Thread-2 Robot 3 has made 11 % of base constraction. 
+2023-03-20 15:09:13 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:09:13 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 15:09:13 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 15:09:13 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 15:09:13 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 15:09:13 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 15:09:14 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 15:09:14 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 15:09:15 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b956cfa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 15:09:15 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 15:09:15 INFO  - Thread-0 Robot 1 has finished work.
+2023-03-20 15:09:15 INFO  - Thread-1 Robot 2 has made 14 % of base constraction. 
+2023-03-20 15:09:15 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:09:15 INFO  - Thread-2 Robot 3 has made 18 % of base constraction. 
+2023-03-20 15:09:15 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 15:09:15 INFO  - Thread-3 Robot 4 has made 31 points,  31 of required is done. 
+2023-03-20 15:09:15 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:15 INFO  - Base Constraction is ready (111 %).
+2023-03-20 15:09:15 INFO  - Thread-2 Robot 3 has finished work.
+2023-03-20 15:09:16 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:09:16 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:17 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:09:17 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:18 INFO  - Thread-3 Robot 4 has made 29 points,  29 of required is done. 
+2023-03-20 15:09:18 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:19 INFO  - Thread-3 Robot 4 has made 25 points,  54 of required is done. 
+2023-03-20 15:09:19 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:20 INFO  - Thread-3 Robot 4 has made 35 points,  89 of required is done. 
+2023-03-20 15:09:20 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:21 INFO  - Thread-3 Robot 4 has made 29 points,  118 of required is done. 
+2023-03-20 15:09:21 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:09:22 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 15:23:30 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 15:23:30 INFO  - Thread-0 Robot 1 has started work.
+2023-03-20 15:23:30 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 15:23:30 INFO  - Thread-1 Robot 2 has made 11points. 
+2023-03-20 15:23:30 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:23:30 INFO  - Thread-2 Robot 3 has made 14points. 
+2023-03-20 15:23:30 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:23:30 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 15:23:30 INFO  - Thread-0 Robot 1 has produced 517 of fuel, total amount of fuel - 517
+2023-03-20 15:23:30 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:32 INFO  - Thread-1 Robot 2 has made 13points. 
+2023-03-20 15:23:32 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:23:32 INFO  - Thread-2 Robot 3 has made 15points. 
+2023-03-20 15:23:32 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:23:33 INFO  - Thread-0 Robot 1 has produced 956 of fuel, total amount of fuel - 1473
+2023-03-20 15:23:33 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:33 INFO  - Thread-4 Robot 5 has made 7 points,  7% of required is made.
+2023-03-20 15:23:33 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:34 INFO  - Thread-1 Robot 2 has made 18points. 
+2023-03-20 15:23:34 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:23:34 INFO  - Thread-2 Robot 3 has made 14points. 
+2023-03-20 15:23:34 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:23:34 INFO  - Thread-4 Robot 5 has made 8 points,  15% of required is made.
+2023-03-20 15:23:34 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:35 INFO  - Thread-4 Robot 5 has made 7 points,  22% of required is made.
+2023-03-20 15:23:35 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:36 INFO  - Thread-1 Robot 2 has made 11points. 
+2023-03-20 15:23:36 INFO  - Thread-0 Robot 1 has produced 846 of fuel, total amount of fuel - 2319
+2023-03-20 15:23:36 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:36 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:23:36 INFO  - Thread-4 Robot 5 has made 8 points,  30% of required is made.
+2023-03-20 15:23:36 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:36 INFO  - Thread-2 Robot 3 has made 19points. 
+2023-03-20 15:23:36 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 15:23:36 INFO  - Thread-3 Robot 4 has made 35 points,  35% of required is done. 
+2023-03-20 15:23:36 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:23:36 INFO  - Base Constraction is ready (115 points).
+2023-03-20 15:23:36 INFO  - Thread-2 Robot 3 has finished work.
+2023-03-20 15:23:37 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:23:37 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:23:38 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:23:38 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:23:39 INFO  - Thread-0 Robot 1 has produced 671 of fuel, total amount of fuel - 2990
+2023-03-20 15:23:39 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:39 INFO  - Thread-4 Robot 5 has made 9 points,  39% of required is made.
+2023-03-20 15:23:39 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:39 INFO  - Thread-3 Robot 4 has made 32 points,  32% of required is done. 
+2023-03-20 15:23:39 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:23:40 INFO  - Thread-4 Robot 5 has made 6 points,  45% of required is made.
+2023-03-20 15:23:40 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:40 INFO  - Thread-3 Robot 4 has made 35 points,  67% of required is done. 
+2023-03-20 15:23:40 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:23:41 INFO  - Thread-3 Robot 4 has made 25 points,  92% of required is done. 
+2023-03-20 15:23:41 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:23:42 INFO  - Thread-4 Robot 5 has made 1 points,  46% of required is made.
+2023-03-20 15:23:42 INFO  - Thread-0 Robot 1 has produced 636 of fuel, total amount of fuel - 3626
+2023-03-20 15:23:42 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:42 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:42 INFO  - Thread-3 Robot 4 has made 33 points,  125% of required is done. 
+2023-03-20 15:23:42 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 15:23:45 INFO  - Thread-4 Robot 5 has made 6 points,  52% of required is made.
+2023-03-20 15:23:45 INFO  - Thread-0 Robot 1 has produced 859 of fuel, total amount of fuel - 4485
+2023-03-20 15:23:45 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:45 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:48 INFO  - Thread-0 Robot 1 has produced 549 of fuel, total amount of fuel - 5034
+2023-03-20 15:23:48 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:48 INFO  - Thread-4 Robot 5 has made 5 points,  57% of required is made.
+2023-03-20 15:23:48 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:51 INFO  - Thread-4 Robot 5 has made 5 points,  62% of required is made.
+2023-03-20 15:23:51 INFO  - Thread-0 Robot 1 has produced 898 of fuel, total amount of fuel - 5932
+2023-03-20 15:23:51 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:51 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:52 INFO  - Thread-4 Robot 5 has made 5 points,  67% of required is made.
+2023-03-20 15:23:52 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:54 INFO  - Thread-0 Robot 1 has produced 508 of fuel, total amount of fuel - 6440
+2023-03-20 15:23:54 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:57 INFO  - Thread-4 Robot 5 has made 9 points,  76% of required is made.
+2023-03-20 15:23:57 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:23:57 INFO  - Thread-0 Robot 1 has produced 612 of fuel, total amount of fuel - 7052
+2023-03-20 15:23:57 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:23:58 INFO  - Thread-4 Robot 5 has made 4 points,  80% of required is made.
+2023-03-20 15:23:58 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:00 INFO  - Thread-0 Robot 1 has produced 921 of fuel, total amount of fuel - 7973
+2023-03-20 15:24:00 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:24:00 INFO  - Thread-4 Robot 5 has made 2 points,  82% of required is made.
+2023-03-20 15:24:00 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:01 INFO  - Thread-4 Robot 5 has made 5 points,  87% of required is made.
+2023-03-20 15:24:01 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:03 INFO  - Thread-0 Robot 1 has produced 697 of fuel, total amount of fuel - 8670
+2023-03-20 15:24:03 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:24:03 INFO  - Thread-4 Robot 5 has made 2 points,  89% of required is made.
+2023-03-20 15:24:03 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:06 INFO  - Thread-4 Robot 5 has made 3 points,  92% of required is made.
+2023-03-20 15:24:06 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:06 INFO  - Thread-0 Robot 1 has produced 511 of fuel, total amount of fuel - 9181
+2023-03-20 15:24:06 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:24:09 INFO  - Thread-4 Robot 5 has made 3 points,  95% of required is made.
+2023-03-20 15:24:09 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:09 INFO  - Thread-0 Robot 1 has produced 578 of fuel, total amount of fuel - 9759
+2023-03-20 15:24:09 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:24:12 INFO  - Thread-4 Robot 5 has made 4 points,  99% of required is made.
+2023-03-20 15:24:12 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:24:12 INFO  - Thread-0 Robot 1 has produced 809 of fuel, total amount of fuel - 10568
+2023-03-20 15:24:12 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:24:13 INFO  - Thread-4 Robot 5 has made 9 points,  108% of required is made.
+2023-03-20 15:24:13 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 15:24:13 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 15:24:14 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 15:24:14 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 15:24:14 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 15:24:14 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 15:24:14 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 15:24:14 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 15:24:14 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 15:24:15 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 15:24:15 INFO  - Thread-0 Robot 1 has finished work.
+2023-03-20 15:24:16 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4821aa9f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 15:24:16 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 15:26:01 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 15:26:01 INFO  - Thread-0 Robot 1 has started work.
+2023-03-20 15:26:01 INFO  - Thread-1 Robot 2 has made 15points. 
+2023-03-20 15:26:01 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:26:01 INFO  - Thread-0 Robot 1 has produced 628 of fuel, total amount of fuel - 628
+2023-03-20 15:26:01 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:01 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 15:26:01 INFO  - Thread-2 Robot 3 has made 18points. 
+2023-03-20 15:26:01 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:26:01 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 15:26:01 INFO  - Thread-4 Robot 5 has made 8 points,  8% of required is made.
+2023-03-20 15:26:01 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:03 INFO  - Thread-1 Robot 2 has made 13points. 
+2023-03-20 15:26:03 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:26:03 INFO  - Thread-2 Robot 3 has made 18points. 
+2023-03-20 15:26:03 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:26:04 INFO  - Thread-0 Robot 1 has produced 762 of fuel, total amount of fuel - 1390
+2023-03-20 15:26:04 INFO  - Thread-4 Robot 5 has made 8 points,  16% of required is made.
+2023-03-20 15:26:04 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:04 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:05 INFO  - Thread-1 Robot 2 has made 19points. 
+2023-03-20 15:26:05 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:26:05 INFO  - Thread-2 Robot 3 has made 17points. 
+2023-03-20 15:26:05 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 15:26:05 INFO  - Thread-3 Robot 4 has made 26 points,  26% of required is done. 
+2023-03-20 15:26:05 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:05 INFO  - Base Constraction is ready (100 points).
+2023-03-20 15:26:05 INFO  - Thread-2 Robot 3 has finished work.
+2023-03-20 15:26:06 INFO  - Thread-3 Robot 4 has made 28 points,  54% of required is done. 
+2023-03-20 15:26:06 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:07 INFO  - Thread-0 Robot 1 has produced 546 of fuel, total amount of fuel - 1936
+2023-03-20 15:26:07 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:07 INFO  - Thread-4 Robot 5 has made 4 points,  20% of required is made.
+2023-03-20 15:26:07 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:07 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:26:07 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:08 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:26:08 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:09 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:26:09 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:10 INFO  - Thread-4 Robot 5 has made 5 points,  25% of required is made.
+2023-03-20 15:26:10 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:10 INFO  - Thread-0 Robot 1 has produced 992 of fuel, total amount of fuel - 2928
+2023-03-20 15:26:10 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:10 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:26:10 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:11 INFO  - Thread-4 Robot 5 has made 3 points,  28% of required is made.
+2023-03-20 15:26:11 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:11 INFO  - Thread-3 Robot 4 has made 27 points,  27% of required is done. 
+2023-03-20 15:26:11 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:12 INFO  - Thread-3 Robot 4 has made 29 points,  56% of required is done. 
+2023-03-20 15:26:12 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:13 INFO  - Thread-0 Robot 1 has produced 747 of fuel, total amount of fuel - 3675
+2023-03-20 15:26:13 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:13 INFO  - Thread-4 Robot 5 has made 3 points,  31% of required is made.
+2023-03-20 15:26:13 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:13 INFO  - Thread-3 Robot 4 has made 33 points,  89% of required is done. 
+2023-03-20 15:26:13 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:26:14 INFO  - Thread-4 Robot 5 has made 8 points,  39% of required is made.
+2023-03-20 15:26:14 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:14 INFO  - Thread-3 Robot 4 has made 28 points,  117% of required is done. 
+2023-03-20 15:26:14 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 15:26:16 INFO  - Thread-4 Robot 5 has made 9 points,  48% of required is made.
+2023-03-20 15:26:16 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:16 INFO  - Thread-0 Robot 1 has produced 584 of fuel, total amount of fuel - 4259
+2023-03-20 15:26:16 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:19 INFO  - Thread-0 Robot 1 has produced 860 of fuel, total amount of fuel - 5119
+2023-03-20 15:26:19 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:19 INFO  - Thread-4 Robot 5 has made 6 points,  54% of required is made.
+2023-03-20 15:26:19 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:22 INFO  - Thread-0 Robot 1 has produced 721 of fuel, total amount of fuel - 5840
+2023-03-20 15:26:22 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:22 INFO  - Thread-4 Robot 5 has made 8 points,  62% of required is made.
+2023-03-20 15:26:22 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:25 INFO  - Thread-0 Robot 1 has produced 792 of fuel, total amount of fuel - 6632
+2023-03-20 15:26:25 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:25 INFO  - Thread-4 Robot 5 has made 9 points,  71% of required is made.
+2023-03-20 15:26:25 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:26 INFO  - Thread-4 Robot 5 has made 5 points,  76% of required is made.
+2023-03-20 15:26:26 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:28 INFO  - Thread-0 Robot 1 has produced 920 of fuel, total amount of fuel - 7552
+2023-03-20 15:26:28 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:28 INFO  - Thread-4 Robot 5 has made 6 points,  82% of required is made.
+2023-03-20 15:26:28 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:29 INFO  - Thread-4 Robot 5 has made 9 points,  91% of required is made.
+2023-03-20 15:26:29 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:31 INFO  - Thread-4 Robot 5 has made 7 points,  98% of required is made.
+2023-03-20 15:26:31 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:31 INFO  - Thread-0 Robot 1 has produced 666 of fuel, total amount of fuel - 8218
+2023-03-20 15:26:31 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:34 INFO  - Thread-0 Robot 1 has produced 897 of fuel, total amount of fuel - 9115
+2023-03-20 15:26:34 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:26:34 INFO  - Thread-4 Robot 5 has made 1 points,  99% of required is made.
+2023-03-20 15:26:34 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:26:35 INFO  - Thread-4 Robot 5 has made 9 points,  108% of required is made.
+2023-03-20 15:26:35 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 15:26:36 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 15:26:36 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 15:26:36 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 15:26:36 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 15:26:36 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 15:26:36 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 15:26:36 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 15:26:37 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 15:26:37 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 15:26:37 INFO  - Thread-0 Robot 1 has finished work.
+2023-03-20 15:26:38 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4821aa9f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 15:26:38 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 15:32:52 INFO  - Thread-1 Robot 2 has started work.
+2023-03-20 15:32:52 INFO  - Thread-0 Robot 1 has started work.
+2023-03-20 15:32:52 INFO  - Thread-4 Robot 5 has started work.
+2023-03-20 15:32:52 INFO  - Thread-2 Robot 3 has started work.
+2023-03-20 15:32:52 INFO  - Thread-2 Robot 3 has made 19points. 
+2023-03-20 15:32:52 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:32:52 INFO  - Thread-0 Robot 1 has produced 927 of fuel, total amount of fuel - 927
+2023-03-20 15:32:52 INFO  - Thread-4 Robot 5 has made 4 points,  4% of required is made.
+2023-03-20 15:32:52 INFO  - Thread-1 Robot 2 has made 15points. 
+2023-03-20 15:32:52 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:32:52 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:32:52 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:32:53 INFO  - Thread-4 Robot 5 has made 8 points,  12% of required is made.
+2023-03-20 15:32:53 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:32:54 INFO  - Thread-2 Robot 3 has made 16points. 
+2023-03-20 15:32:54 INFO  - Thread-1 Robot 2 has made 13points. 
+2023-03-20 15:32:54 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:32:54 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:32:55 INFO  - Thread-0 Robot 1 has produced 738 of fuel, total amount of fuel - 1665
+2023-03-20 15:32:55 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:32:55 INFO  - Thread-4 Robot 5 has made 6 points,  18% of required is made.
+2023-03-20 15:32:55 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:32:56 INFO  - Thread-1 Robot 2 has made 19points. 
+2023-03-20 15:32:56 INFO  - Thread-2 Robot 3 has made 14points. 
+2023-03-20 15:32:56 INFO  - Thread-1 Robot 2 is reloading for 2 seconds.
+2023-03-20 15:32:56 INFO  - Thread-2 Robot 3 is reloading for 2 seconds.
+2023-03-20 15:32:58 INFO  - Thread-0 Robot 1 has produced 786 of fuel, total amount of fuel - 2451
+2023-03-20 15:32:58 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:32:58 INFO  - Thread-4 Robot 5 has made 8 points,  26% of required is made.
+2023-03-20 15:32:58 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:32:58 INFO  - Thread-2 Robot 3 has made 18points. 
+2023-03-20 15:32:58 INFO  - Thread-1 Robot 2 has made 13points. 
+2023-03-20 15:32:58 INFO  - Thread-3 Robot 4 has started work.
+2023-03-20 15:32:58 INFO  - Thread-3 Robot 4 has made 26 points,  26% of required is done. 
+2023-03-20 15:32:58 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:32:58 INFO  - Base Constraction is ready (114 points).
+2023-03-20 15:32:58 INFO  - Base Constraction is ready (114 points).
+2023-03-20 15:32:58 INFO  - Thread-2 Robot 3 has finished work.
+2023-03-20 15:32:58 INFO  - Thread-1 Robot 2 has finished work.
+2023-03-20 15:32:59 INFO  - Thread-4 Robot 5 has made 4 points,  30% of required is made.
+2023-03-20 15:32:59 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:32:59 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:32:59 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:00 INFO  - Thread-3 Robot 4 has made 28 points,  28% of required is done. 
+2023-03-20 15:33:00 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:01 INFO  - Thread-0 Robot 1 has produced 580 of fuel, total amount of fuel - 3031
+2023-03-20 15:33:01 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:01 INFO  - Thread-4 Robot 5 has made 8 points,  38% of required is made.
+2023-03-20 15:33:01 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:01 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:01 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:02 INFO  - Thread-3 Robot 4 has made 30 points,  30% of required is done. 
+2023-03-20 15:33:02 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:03 INFO  - Thread-3 Robot 4 has made 31 points,  61% of required is done. 
+2023-03-20 15:33:03 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:04 INFO  - Thread-0 Robot 1 has produced 920 of fuel, total amount of fuel - 3951
+2023-03-20 15:33:04 INFO  - Thread-4 Robot 5 has made 6 points,  44% of required is made.
+2023-03-20 15:33:04 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:04 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:04 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:04 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:05 INFO  - Thread-4 Robot 5 has made 5 points,  49% of required is made.
+2023-03-20 15:33:05 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:05 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:05 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:06 INFO  - Thread-3 Robot 4 has made 28 points,  28% of required is done. 
+2023-03-20 15:33:06 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:07 INFO  - Thread-0 Robot 1 has produced 822 of fuel, total amount of fuel - 4773
+2023-03-20 15:33:07 INFO  - Thread-4 Robot 5 has made 2 points,  51% of required is made.
+2023-03-20 15:33:07 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:07 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:07 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:07 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:08 INFO  - Thread-4 Robot 5 has made 5 points,  56% of required is made.
+2023-03-20 15:33:08 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:08 INFO  - Thread-3 Robot 4 has made 29 points,  29% of required is done. 
+2023-03-20 15:33:08 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:09 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:09 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:10 INFO  - Thread-0 Robot 1 has produced 630 of fuel, total amount of fuel - 5403
+2023-03-20 15:33:10 INFO  - Thread-4 Robot 5 has made 8 points,  64% of required is made.
+2023-03-20 15:33:10 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:10 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:10 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:10 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:11 INFO  - Thread-3 Robot 4 has made 30 points,  30% of required is done. 
+2023-03-20 15:33:11 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:12 INFO  - Thread-3 Robot 4 has made 30 points,  60% of required is done. 
+2023-03-20 15:33:12 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:13 INFO  - Thread-4 Robot 5 has made 4 points,  68% of required is made.
+2023-03-20 15:33:13 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:13 INFO  - Thread-0 Robot 1 has produced 517 of fuel, total amount of fuel - 5920
+2023-03-20 15:33:13 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:13 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:13 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:14 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:14 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:15 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:15 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:16 INFO  - Thread-0 Robot 1 has produced 964 of fuel, total amount of fuel - 6884
+2023-03-20 15:33:16 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:16 INFO  - Thread-4 Robot 5 has made 5 points,  73% of required is made.
+2023-03-20 15:33:16 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:16 INFO  - Thread-3 Robot 4 has made 25 points,  25% of required is done. 
+2023-03-20 15:33:16 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:17 INFO  - Thread-4 Robot 5 has made 2 points,  75% of required is made.
+2023-03-20 15:33:17 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:17 INFO  - Thread-3 Robot 4 has made 32 points,  57% of required is done. 
+2023-03-20 15:33:17 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:18 INFO  - Thread-3 Robot 4 has broken chip.
+2023-03-20 15:33:18 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:19 INFO  - Thread-4 Robot 5 has made 3 points,  78% of required is made.
+2023-03-20 15:33:19 INFO  - Thread-0 Robot 1 has produced 662 of fuel, total amount of fuel - 7546
+2023-03-20 15:33:19 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:19 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:19 INFO  - Thread-3 Robot 4 has made 34 points,  34% of required is done. 
+2023-03-20 15:33:19 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:20 INFO  - Thread-4 Robot 5 has made 7 points,  85% of required is made.
+2023-03-20 15:33:20 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:20 INFO  - Thread-3 Robot 4 has made 26 points,  60% of required is done. 
+2023-03-20 15:33:20 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:21 INFO  - Thread-3 Robot 4 has made 30 points,  90% of required is done. 
+2023-03-20 15:33:21 INFO  - Thread-3 Robot 4 is reloading for 1 second.
+2023-03-20 15:33:22 INFO  - Thread-0 Robot 1 has produced 561 of fuel, total amount of fuel - 8107
+2023-03-20 15:33:22 INFO  - Thread-4 Robot 5 has made 6 points,  91% of required is made.
+2023-03-20 15:33:22 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:22 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:22 INFO  - Thread-3 Robot 4 has made 27 points,  117% of required is done. 
+2023-03-20 15:33:22 INFO  - Thread-3 Robot 4 has finished work.
+2023-03-20 15:33:25 INFO  - Thread-0 Robot 1 has produced 634 of fuel, total amount of fuel - 8741
+2023-03-20 15:33:25 INFO  - Thread-4 Robot 5 has made 4 points,  95% of required is made.
+2023-03-20 15:33:25 INFO  - Thread-4 Robot 5 is reloading for 1 second.
+2023-03-20 15:33:25 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:28 INFO  - Thread-4 Robot 5 has made 6 points,  101% of required is made.
+2023-03-20 15:33:28 INFO  - Thread-0 Robot 1 has produced 598 of fuel, total amount of fuel - 9339
+2023-03-20 15:33:28 INFO  - Thread-0 Robot 1 is transporting fuel.
+2023-03-20 15:33:28 INFO  - Thread-4 Robot 5 has finished work.
+2023-03-20 15:33:28 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 15:33:29 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 15:33:29 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 15:33:29 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 15:33:29 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 15:33:29 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 15:33:29 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 15:33:29 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 15:33:30 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 15:33:30 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74ea46e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 15:33:30 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 15:33:31 INFO  - Thread-0 Robot 1 has finished work.
+2023-03-20 19:04:19 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 19:04:20 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 19:04:20 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 19:04:20 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 19:04:20 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 19:04:20 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 19:04:20 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 19:04:21 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 19:04:21 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 19:04:23 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c26273d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 19:04:23 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 20:26:43 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 20:26:44 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 20:26:44 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 20:26:44 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 20:26:44 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 20:26:44 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 20:26:44 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 20:26:45 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 20:26:45 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 20:26:46 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@100c8b75] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 20:26:46 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 20:39:05 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 20:39:06 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 20:39:07 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 20:39:07 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 20:39:07 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 20:39:07 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 20:39:07 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 20:39:07 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 20:39:08 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 20:39:09 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e041285] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 20:39:09 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 20:39:09 ERROR - line 1:91: expecting EOF, found ')'
+2023-03-20 20:39:09 ERROR - line 1:91: expecting EOF, found ')'
+line 1:91: expecting EOF, found ')'
+	at antlr.Parser.match(Parser.java:211)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:217)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:44)
+	at com.mishura.service.Service.getStatistics(Service.java:49)
+	at com.mishura.Main.main(Main.java:20)
+2023-03-20 20:41:17 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 20:41:17 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 20:41:18 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 20:41:18 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 20:41:18 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 20:41:18 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 20:41:18 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 20:41:19 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 20:41:19 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 20:41:20 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@12d5c30e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 20:41:20 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 20:42:30 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 20:42:31 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 20:42:31 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 20:42:31 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 20:42:31 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 20:42:31 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 20:42:31 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 20:42:32 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 20:42:32 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 20:42:33 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74fab04a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 20:42:33 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:33:09 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 21:33:09 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 21:33:10 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 21:33:10 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 21:33:10 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 21:33:10 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 21:33:10 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 21:33:10 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 21:33:11 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 21:33:11 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@363c4251] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 21:33:11 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:41:34 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 21:41:35 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 21:41:35 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 21:41:35 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 21:41:35 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 21:41:35 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 21:41:35 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 21:41:36 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 21:41:36 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 21:41:37 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17143b3b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 21:41:37 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:47:29 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 21:47:29 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 21:47:30 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 21:47:30 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 21:47:30 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 21:47:30 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 21:47:30 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 21:47:30 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 21:47:31 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 21:47:31 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d7fb838] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 21:47:32 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:48:38 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 21:48:38 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 21:48:39 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 21:48:39 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 21:48:39 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 21:48:39 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 21:48:39 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 21:48:40 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 21:48:40 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 21:48:41 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17143b3b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 21:48:41 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:49:30 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 21:49:31 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 21:49:31 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 21:49:31 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 21:49:31 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 21:49:31 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 21:49:31 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 21:49:32 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 21:49:32 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 21:49:33 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17143b3b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 21:49:33 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:59:18 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 21:59:18 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 21:59:19 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 21:59:19 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 21:59:19 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 21:59:19 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 21:59:19 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 21:59:19 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 21:59:20 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 21:59:20 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ba46e63] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 21:59:20 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 21:59:20 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+2023-03-20 21:59:20 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+ Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:182)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:50)
+	at com.mishura.Main.main(Main.java:20)
+Cause:
+org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO
+	at org.hibernate.internal.util.ReflectHelper.getConstructor(ReflectHelper.java:346)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:174)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:50)
+	at com.mishura.Main.main(Main.java:20)
+2023-03-20 22:02:13 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:02:14 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:02:14 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:02:14 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:02:14 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:02:14 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:02:14 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:02:15 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:02:15 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:02:16 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ae2db25] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:02:16 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:02:16 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+2023-03-20 22:02:16 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+ Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:182)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:50)
+	at com.mishura.Main.main(Main.java:20)
+Cause:
+org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO
+	at org.hibernate.internal.util.ReflectHelper.getConstructor(ReflectHelper.java:346)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:174)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:50)
+	at com.mishura.Main.main(Main.java:20)
+2023-03-20 22:02:33 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:02:34 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:02:34 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:02:34 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:02:34 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:02:34 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:02:34 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:02:35 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:02:35 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:02:36 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17143b3b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:02:36 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:02:36 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+2023-03-20 22:02:36 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+ Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:182)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:50)
+	at com.mishura.Main.main(Main.java:20)
+Cause:
+org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO
+	at org.hibernate.internal.util.ReflectHelper.getConstructor(ReflectHelper.java:346)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:174)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:50)
+	at com.mishura.Main.main(Main.java:20)
+2023-03-20 22:07:30 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:07:30 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:07:31 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:07:31 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:07:31 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:07:31 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:07:31 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:07:31 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:07:32 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:07:33 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10f7918f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:07:33 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:07:33 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+2023-03-20 22:07:33 ERROR -  Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+ Unable to locate appropriate constructor on class [com.mishura.DTO.StatisticsDTO]. Expected arguments are: long, long, long
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO]
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:182)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:57)
+	at com.mishura.Main.main(Main.java:20)
+Cause:
+org.hibernate.PropertyNotFoundException: no appropriate constructor in class: com.mishura.DTO.StatisticsDTO
+	at org.hibernate.internal.util.ReflectHelper.getConstructor(ReflectHelper.java:346)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:174)
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144)
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.mishura.repository.WorkpieceRepository.getStatistics(WorkpieceRepository.java:42)
+	at com.mishura.service.Service.getStatistics(Service.java:57)
+	at com.mishura.Main.main(Main.java:20)
+2023-03-20 22:08:30 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:08:31 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:08:31 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:08:31 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:08:31 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:08:31 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:08:31 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:08:32 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:08:32 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:08:33 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a26ec8d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:08:33 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:09:10 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:09:11 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:09:11 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:09:11 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:09:11 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:09:11 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:09:11 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:09:12 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:09:12 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:09:13 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@77bb48d5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:09:13 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:10:38 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:10:38 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:10:39 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:10:39 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:10:39 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:10:39 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:10:39 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:10:39 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:10:40 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:10:40 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@52f57666] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:10:40 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:12:44 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:12:44 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:12:45 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:12:45 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:12:45 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:12:45 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:12:45 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:12:45 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:12:46 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:12:46 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@272ce069] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:12:46 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:13:49 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:13:49 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:13:50 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:13:50 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:13:50 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:13:50 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:13:50 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:13:50 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:13:51 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:13:51 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@52f57666] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:13:51 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 22:53:51 INFO  - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-20 22:53:51 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-20 22:53:51 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-03-20 22:53:51 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/factory]
+2023-03-20 22:53:51 INFO  - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-03-20 22:53:51 INFO  - HHH10001003: Autocommit mode: false
+2023-03-20 22:53:51 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-03-20 22:53:52 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-03-20 22:53:52 INFO  - HV000001: Hibernate Validator 5.2.5.Final
+2023-03-20 22:53:53 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@272ce069] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-03-20 22:53:53 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
