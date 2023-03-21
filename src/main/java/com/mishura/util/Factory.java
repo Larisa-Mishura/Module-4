@@ -2,6 +2,7 @@ package com.mishura.util;
 
 import com.mishura.model.Workpiece;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class Factory {
@@ -19,7 +20,7 @@ public class Factory {
                 new ChipProgrammer(workpiece, "Robot 4"),
                 new Assembler(workpiece, "Robot 5")
         );
-
+        workpiece.setStart(LocalDateTime.now());
         threads.forEach(Thread::start);
         return workpiece;
     }

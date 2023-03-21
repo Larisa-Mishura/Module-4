@@ -40,7 +40,7 @@ public class WorkpieceRepository{
     public List<StatisticsDTO> getStatistics(){
         final EntityManager entityManager = HibernateUtil.getEntityManager();
         return entityManager.createQuery(
-                "SELECT new com.mishura.DTO.StatisticsDTO (SUM(w.producedFuel), SUM(w.spentFuel), SUM(w.countOfBrokenChips)) " +
+                "SELECT new com.mishura.DTO.StatisticsDTO (COUNT(w.producedFuel), SUM(w.producedFuel), SUM(w.spentFuel), SUM(w.countOfBrokenChips)) " +
                         "FROM Workpiece w",
                 StatisticsDTO.class)
                 .getResultList();

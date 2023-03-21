@@ -4,6 +4,7 @@ import com.mishura.DTO.StatisticsDTO;
 import com.mishura.model.Workpiece;
 import com.mishura.service.Service;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,11 +27,21 @@ public class StatisticServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter responseBody = response.getWriter();
         response.setContentType("text/html");
+
+        String id = request.getParameter("id");
+
+        if(id != null){
+            RequestDispatcher requestDispatcher = request.getRequestDispatcher("/stats/id");
+            requestDispatcher.forward(request, response);
+        }
+
         StatisticsDTO statistics = service.getStatistics().get(0);
 
+        responseBody.println(String.format("<h2 align=\"center\">Total count - %s</h2>", statistics.getCount()));
         responseBody.println(String.format("<h2 align=\"center\">Total amount of produced fuel - %s</h2>", statistics.getProducedFuel()));
         responseBody.println(String.format("<h2 align=\"center\">Total amount of spent fuel - %s</h2>", statistics.getSpentFuel()));
         responseBody.println(String.format("<h2 align=\"center\">Total amount of broken chips - %s</h2>", statistics.getCountOfBrokenChips()));
+
 
         responseBody.println("<h2 align=\"center\">For more detailed information, enter ID of workpiece</p>");
         responseBody.println("<form method = \"get\">");
@@ -40,6 +51,7 @@ public class StatisticServlet extends HttpServlet {
         responseBody.println("<label>");
         responseBody.println("<button type=\"submit\">Submit</button>");
         responseBody.println("</form>");
+
     }
 
     @Override

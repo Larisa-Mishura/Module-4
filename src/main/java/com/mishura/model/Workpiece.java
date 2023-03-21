@@ -4,12 +4,15 @@ import com.mishura.util.FuelProducer;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.concurrent.TimeUnit;
 
 @Getter
 @Setter
@@ -23,6 +26,9 @@ public class Workpiece {
     private String id;
 
     private LocalDateTime created;
+
+    @Transient
+    private LocalDateTime start;
 
     @Column(name = "produced_fuel")
     private int producedFuel;
@@ -42,17 +48,31 @@ public class Workpiece {
     private int pointsOfBaseConstruction;
 
     @Transient
-    boolean isReady;
+    private boolean isReady;
 
     @Transient
-    DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a");
+    private final static DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a");
+
 
 
     @PrePersist
     public void prePersist() {
-        if (created == null) {
-            created = LocalDateTime.now();
+        if (seconds == 0) {
+            final Duration duration = Duration.between(start, created);
+            seconds = duration.getSeconds();
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Workpiece{" +
+                "id='" + id + '\'' +
+                ", created=" + FORMATTER.format(created) +
+                ", seconds=" + seconds +
+                ", producedFuel=" + producedFuel +
+                ", spentFuel=" + spentFuel +
+                ", countOfBrokenChips=" + countOfBrokenChips +
+                '}';
     }
 }
 

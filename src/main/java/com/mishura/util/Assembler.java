@@ -6,6 +6,7 @@ import lombok.Setter;
 import lombok.SneakyThrows;
 import org.apache.log4j.Logger;
 
+import java.time.LocalDateTime;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -43,6 +44,7 @@ public class Assembler extends Thread {
                 LOGGER.info(threadName + " is reloading for 1 second.");
                 TimeUnit.SECONDS.sleep(1);
             } else {
+                workpiece.setCreated(LocalDateTime.now());
                 workpiece.setReady(true);
                 LOGGER.info(threadName + " has finished work.");
             }

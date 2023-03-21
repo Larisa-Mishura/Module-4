@@ -11,6 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class StatisticsDTO {
 
+    private long count;
     private long producedFuel;
     private long spentFuel;
     private long countOfBrokenChips;

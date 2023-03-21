@@ -13,9 +13,19 @@
 <div>
     <div>
         <button onclick="location.href='/start'">Make new workpiece</button>
-        <button onclick="location.href='/start/{id}'">Information about workpiece</button>
+        <button onclick="location.href='/stats/{id}'">Information about workpiece</button>
         <button onclick="location.href='/stats'">Statistics</button>
+
+        <p><a href="stats.jsp">jsp link</a></p>
     </div>
+
+    <form action="/stats" method="GET">
+        <h3> Enter ID </h3>
+        <label>ID:
+            <input id="text" name="id"><br />
+            <label>
+                <button type="submit">Submit</button>
+    </form>
 </div>
 </body>
 </html>
