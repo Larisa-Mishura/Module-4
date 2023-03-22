@@ -1,8 +1,7 @@
-package com.mishura.util;
+package com.mishura.threads;
 
-import com.mishura.model.Workpiece;
+import com.mishura.model.Detail;
 import lombok.AllArgsConstructor;
-import lombok.Setter;
 import lombok.SneakyThrows;
 import org.apache.log4j.Logger;
 
@@ -12,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @AllArgsConstructor
 public class ChipProgrammer extends Thread {
 
-    private Workpiece workpiece;
+    private Detail detail;
 
     private final String name;
 
@@ -24,7 +23,7 @@ public class ChipProgrammer extends Thread {
     @Override
     public void run() {
         String threadName = Thread.currentThread().getName() + " " + name;
-        while (workpiece.getPointsOfBaseConstruction() < 100){
+        while (detail.getPointsOfBaseConstruction() < 100){
             Thread.yield();
         }
         LOGGER.info(threadName + " has started work.");
@@ -33,7 +32,7 @@ public class ChipProgrammer extends Thread {
         while (completedPoints < 100) {
             if (random.nextInt(10) < 3) {
                 completedPoints = 0;
-                workpiece.setCountOfBrokenChips(workpiece.getCountOfBrokenChips() + 1);
+                detail.setCountOfBrokenChips(detail.getCountOfBrokenChips() + 1);
                 LOGGER.info(threadName + " has broken chip.");
             } else {
                 pointsInIteration = 25 + random.nextInt(11);
@@ -44,6 +43,7 @@ public class ChipProgrammer extends Thread {
                 LOGGER.info(threadName + " is reloading for 1 second.");
                 TimeUnit.SECONDS.sleep(1);
             } else {
+                detail.setPointsOfChip(completedPoints);
                 LOGGER.info(threadName + " has finished work.");
             }
         }

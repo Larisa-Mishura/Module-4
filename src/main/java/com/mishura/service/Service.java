@@ -1,8 +1,8 @@
 package com.mishura.service;
 
 import com.mishura.DTO.StatisticsDTO;
-import com.mishura.model.Workpiece;
-import com.mishura.repository.WorkpieceRepository;
+import com.mishura.model.Detail;
+import com.mishura.repository.Repository;
 import com.mishura.util.Factory;
 
 import java.util.List;
@@ -11,42 +11,42 @@ import java.util.stream.Collectors;
 
 public class Service {
 
-    private final WorkpieceRepository repository;
+    private final Repository repository;
 
     private static Service instance;
 
     public static Service getInstance() {
         if (instance == null) {
-            instance = new Service(WorkpieceRepository.getInstance());
+            instance = new Service(Repository.getInstance());
         }
         return instance;
     }
 
-    public Service(WorkpieceRepository repository) {
+    public Service(Repository repository) {
         this.repository = repository;
     }
 
     public String createAndSave(){
-        Workpiece workpiece = Factory.makeWorkpiece();
-        while (!workpiece.isReady()){
+        Detail detail = Factory.makeItem();
+        /*while (!item.isReady()){
             Thread.yield();
-        }
-        repository.save(workpiece);
-        return workpiece.getId();
+        }*/
+        repository.save(detail);
+        return detail.getId();
     }
 
-    public Optional<Workpiece> getById(final String workpieceId){
-        return repository.getById(workpieceId);
+    public Optional<Detail> getById(final String itemId){
+        return repository.getById(itemId);
     }
 
-    public List<Workpiece> getAll(){
+    public List<Detail> getAll(){
         return repository.getAll();
     }
 
 
-    public List<String> getWorkpiecesId(){
+    public List<String> getItemsId(){
         return repository.getAll().stream()
-                .map(Workpiece::getId)
+                .map(Detail::getId)
                 .collect(Collectors.toList());
     }
 

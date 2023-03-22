@@ -1,4 +1,4 @@
-package com.mishura.config;
+package com.mishura.util;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

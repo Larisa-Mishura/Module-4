@@ -1,19 +1,17 @@
-package com.mishura.util;
+package com.mishura.threads;
 
-import com.mishura.model.Workpiece;
+import com.mishura.model.Detail;
 import lombok.AllArgsConstructor;
-import lombok.Setter;
 import lombok.SneakyThrows;
 import org.apache.log4j.Logger;
 
-import java.time.LocalDateTime;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 @AllArgsConstructor
 public class FuelProducer extends Thread {
 
-    private Workpiece workpiece;
+    private Detail detail;
 
     private final String name;
 
@@ -26,10 +24,10 @@ public class FuelProducer extends Thread {
     public void run() {
         String threadName = Thread.currentThread().getName() + " " + name;
         LOGGER.info(threadName + " has started work.");
-        while (!workpiece.isReady()){
+        while (!detail.isReady()){
             int producedFuel = 500 + random.nextInt(500);
-            workpiece.setProducedFuel(workpiece.getProducedFuel() + producedFuel);
-            LOGGER.info(threadName + " has produced " + producedFuel + " of fuel, total amount of fuel - " + workpiece.getProducedFuel());
+            detail.setProducedFuel(detail.getProducedFuel() + producedFuel);
+            LOGGER.info(threadName + " has produced " + producedFuel + " of fuel, total amount of fuel - " + detail.getProducedFuel());
             LOGGER.info(threadName + " is transporting fuel.");
             TimeUnit.SECONDS.sleep(3);
         }

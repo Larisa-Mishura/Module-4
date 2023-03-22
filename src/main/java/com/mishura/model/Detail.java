@@ -1,24 +1,22 @@
 package com.mishura.model;
 
-import com.mishura.util.FuelProducer;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.Duration;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.concurrent.TimeUnit;
 
 @Getter
 @Setter
-@Entity
 @NoArgsConstructor
-public class Workpiece {
+@AllArgsConstructor
+@Entity
+public class Detail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "UUID")
@@ -39,7 +37,7 @@ public class Workpiece {
     @Column(name = "count_of_broken_chips")
     private int countOfBrokenChips;
 
-    private long seconds;
+    private int seconds;
 
     @Transient
     private final Object MONITOR = new Object();
@@ -48,32 +46,29 @@ public class Workpiece {
     private int pointsOfBaseConstruction;
 
     @Transient
+    private int pointsOfChip;
+
+    @Transient
     private boolean isReady;
 
     @Transient
     private final static DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a");
 
-
-
     @PrePersist
     public void prePersist() {
         if (seconds == 0) {
             final Duration duration = Duration.between(start, created);
-            seconds = duration.getSeconds();
+            seconds = (int)duration.getSeconds();
         }
     }
 
     @Override
     public String toString() {
-        return "Workpiece{" +
-                "id='" + id + '\'' +
-                ", created=" + FORMATTER.format(created) +
-                ", seconds=" + seconds +
-                ", producedFuel=" + producedFuel +
-                ", spentFuel=" + spentFuel +
-                ", countOfBrokenChips=" + countOfBrokenChips +
-                '}';
+        return  "Item ID - " + id + "\n" +
+                "Date - " + FORMATTER.format(created) + "\n" +
+                "Spent time - " + seconds + "\n" +
+                "Total amount of spent fuel - " + producedFuel + "\n" +
+                "Total amount of produced fuel - " + spentFuel + "\n" +
+                "Total amount of broken chips - " + countOfBrokenChips;
     }
 }
-
-
