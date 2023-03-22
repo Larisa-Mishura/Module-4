@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @AllArgsConstructor
 public class ChipProgrammer extends Thread {
 
-    private Detail detail;
+    private final Detail detail;
 
     private final String name;
 
@@ -37,10 +37,10 @@ public class ChipProgrammer extends Thread {
             } else {
                 pointsInIteration = 25 + random.nextInt(11);
                 completedPoints += pointsInIteration;
-                LOGGER.info(threadName + " has made " + pointsInIteration + " points,  " + completedPoints + "% of required is done. ");
+                LOGGER.info(threadName + " has made " + pointsInIteration + " points, " + completedPoints + "% of required is done. ");
             }
             if(completedPoints < 100) {
-                LOGGER.info(threadName + " is reloading for 1 second.");
+                LOGGER.info(threadName + " is reloading.");
                 TimeUnit.SECONDS.sleep(1);
             } else {
                 detail.setPointsOfChip(completedPoints);

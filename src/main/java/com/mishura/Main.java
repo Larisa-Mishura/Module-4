@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         final Service service = Service.getInstance();
-        /*String id = service.createAndSave();
-        System.out.println(service.getById(id).get().toString());*/
+        String id = service.createAndSave();
+        System.out.println(service.getById(id).get().toString());
         System.out.println("~".repeat(40));
 
         System.out.println("Total amount of details - " + service.getStatistics().get(0).getCount());

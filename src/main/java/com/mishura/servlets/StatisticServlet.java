@@ -11,10 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 @WebServlet(name = "StatisticServlet", value = "/stats")
 public class StatisticServlet extends HttpServlet {
 
+    Service service = Service.getInstance();
     @Override
     public void init() {
         System.out.println(getServletName() + " initialized");
@@ -32,26 +34,28 @@ public class StatisticServlet extends HttpServlet {
             requestDispatcher.forward(request, response);
         }
 
-        Service service = Service.getInstance();
         StatisticsDTO statistics = service.getStatistics().get(0);
-        responseBody.println(String.format("<h2>Total count of items - %s</h2>", statistics.getCount()));
+
+        responseBody.println("<h1>INFORMATION ABOUT FACTORY</h1>");
+        responseBody.println(String.format("<h2>Total amount of details - %s</h2>", statistics.getCount()));
         responseBody.println(String.format("<h2>Total amount of produced fuel - %s</h2>", statistics.getProducedFuel()));
         responseBody.println(String.format("<h2>Total amount of spent fuel - %s</h2>", statistics.getSpentFuel()));
         responseBody.println(String.format("<h2>Total amount of broken chips - %s</h2>", statistics.getCountOfBrokenChips()));
+        responseBody.print("<br>");
 
+        responseBody.println("<h2>For more detailed information, select ID of detail:</h2>");
 
-        responseBody.println("<h2>For more detailed information, enter ID of detail</h2>");
         responseBody.println("<form method = \"get\">");
-        responseBody.println("<h2> Enter ID </h2>");
-        responseBody.println("<label>ID:");
-        responseBody.println("<input type=\"id\" name=\"id\"><br />");
-        responseBody.println("<label>");
+        List<String> list = service.getDetailsId();
+        responseBody.println("ID: <select name=\"id\">");
+        for(String option : list){
+            responseBody.println(String.format("<option>%s</option>", option));
+        }
+        responseBody.println("</select>");
         responseBody.println("<button type=\"submit\">Submit</button>");
         responseBody.println("</form>");
-
-        responseBody.println("<div>");
+        responseBody.print("<br>");
         responseBody.println("<button align=\"center\" onclick=\"location.href='/'\">Back to main</button>");
-        responseBody.println("<div>");
     }
 
     @Override

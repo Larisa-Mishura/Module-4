@@ -1,8 +1,6 @@
 package com.mishura.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -13,8 +11,6 @@ import java.time.format.DateTimeFormatter;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 public class Detail {
 
@@ -51,16 +47,15 @@ public class Detail {
     @Transient
     private boolean isReady;
 
-    @Transient
-    private final static DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a");
-
     @PrePersist
     public void prePersist() {
         if (seconds == 0) {
-            final Duration duration = Duration.between(start, created);
-            seconds = (int)duration.getSeconds();
+            seconds = (int)Duration.between(start, created).getSeconds();
         }
     }
+
+    @Transient
+    private final static DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a");
 
     @Override
     public String toString() {

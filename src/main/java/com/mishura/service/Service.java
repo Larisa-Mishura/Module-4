@@ -28,9 +28,6 @@ public class Service {
 
     public String createAndSave(){
         Detail detail = Factory.makeItem();
-        /*while (!item.isReady()){
-            Thread.yield();
-        }*/
         repository.save(detail);
         return detail.getId();
     }
@@ -39,12 +36,8 @@ public class Service {
         return repository.getById(itemId);
     }
 
-    public List<Detail> getAll(){
-        return repository.getAll();
-    }
 
-
-    public List<String> getItemsId(){
+    public List<String> getDetailsId(){
         return repository.getAll().stream()
                 .map(Detail::getId)
                 .collect(Collectors.toList());

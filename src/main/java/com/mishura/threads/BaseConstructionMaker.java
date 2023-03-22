@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @AllArgsConstructor
 public class BaseConstructionMaker extends Thread {
 
-    private Detail detail;
+    private final Detail detail;
 
     private final String name;
 
@@ -34,7 +34,7 @@ public class BaseConstructionMaker extends Thread {
                 }
             }
                 if(detail.getPointsOfBaseConstruction() >= 100){
-                    LOGGER.info("Base Constraction is ready ("+ detail.getPointsOfBaseConstruction() + " points).");
+                    LOGGER.info("Base Construction is ready ("+ detail.getPointsOfBaseConstruction() + " points).");
                     LOGGER.info(threadName + " has finished work.");
                 } else {
                     LOGGER.info(threadName + " is reloading for 2 seconds.");

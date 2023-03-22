@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 @WebServlet(name = "start", value = "/start")
 public class MakeDetailServlet extends HttpServlet {
 
-    private final Service service = Service.getInstance();
+    private final static Service service = Service.getInstance();
 
     @Override
     public void init() {
@@ -21,6 +21,7 @@ public class MakeDetailServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
         PrintWriter responseBody = response.getWriter();
         response.setContentType("text/html");
 
@@ -30,21 +31,22 @@ public class MakeDetailServlet extends HttpServlet {
         responseBody.println("<h2>Do you want to make a new detail?</h2>");
         responseBody.println("<button type=\"submit\">Submit</button>");
         responseBody.println("</form>");
-        responseBody.println();
         responseBody.println("<button align=\"center\" onclick=\"location.href='/'\">Back to main</button>");
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
         final String id = service.createAndSave();
+
         PrintWriter responseBody = response.getWriter();
         response.setContentType("text/html");
 
         responseBody.println("<a><img src=\"robot2.jpg\" alt=\"\"></a>");
 
-        responseBody.println("<h3>A new item has been made:</h3>");
+        responseBody.println("<h3>A new detail has been made:</h3>");
         responseBody.println("<h3>id " + id + "</h3>");
-        responseBody.println();
+        responseBody.print("<br>");
         responseBody.println("<button align=\"center\" onclick=\"location.href='/'\">Back to main</button>");
     }
 }

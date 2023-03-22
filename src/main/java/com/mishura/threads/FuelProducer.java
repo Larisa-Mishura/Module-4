@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @AllArgsConstructor
 public class FuelProducer extends Thread {
 
-    private Detail detail;
+    private final Detail detail;
 
     private final String name;
 
