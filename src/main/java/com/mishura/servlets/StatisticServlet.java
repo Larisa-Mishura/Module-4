@@ -34,6 +34,11 @@ public class StatisticServlet extends HttpServlet {
             requestDispatcher.forward(request, response);
         }
 
+        if(service.getStatistics().isEmpty()){
+            responseBody.println("<h2>No detail present</h2>");
+            return;
+        }
+
         StatisticsDTO statistics = service.getStatistics().get(0);
 
         responseBody.println("<h1>INFORMATION ABOUT FACTORY</h1>");
